@@ -1,11 +1,11 @@
 # DFS_Graph-implementation
 #include<iostream>
-using namespace std;
-int graph[8][8],visited[88],n,a[8];
-static int k=0,count=0;
-void DFS(int vertex);
-int main()
-{
+# using namespace std;
+# int graph[8][8],visited[88],n,a[8];
+# static int k=0,count=0;
+# void DFS(int vertex);
+# int main()
+# {
     cout<<"Enter no. of vertices:";
     cin>>n;
     for(int i=0;i<n;i++)
